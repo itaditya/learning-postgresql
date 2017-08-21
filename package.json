@@ -1,0 +1,22 @@
+{
+  "name": "postgres-express-react-node-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aditya Agarwal <adityaa803@gmail.com> (http://adi.surge.sh/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "pg": "^7.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.6.0"
+  }
+}
